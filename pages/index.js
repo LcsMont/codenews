@@ -1,5 +1,25 @@
+import React from 'react';
+
 function Home() {
-    return <h1>Aloysio Aloysio!!!</h1>
+    const styles = {
+        container: {
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '100vh',
+            backgroundColor: '#f0f0f0',
+        },
+        heading: {
+            fontSize: '2rem',
+            color: '#333',
+        },
+    };
+
+    return (
+        <div style={styles.container}>
+            <h1 style={styles.heading}>Aloysio! Aloysio!!!</h1>
+        </div>
+    );
 }
 
 export default Home;

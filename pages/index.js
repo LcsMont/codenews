@@ -17,11 +17,7 @@ function Home() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Time de fibra: </h1>
-      <h2>
-        Niltinho Tech Lead | Bruno Montezadno Soares | Bruninho aprendiz do
-        Perez | Lucas tempos Sydle
-      </h2>
+      <h1 style={styles.heading}>Work in progress</h1>
     </div>
   );
 }
